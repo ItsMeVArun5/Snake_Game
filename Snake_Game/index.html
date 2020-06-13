@@ -1,6 +1,16 @@
 <html lang="en">
 
 <head>
+    <style>
+        h2 {
+            font-weight: bold;
+            color: red
+        }
+
+        .controls {
+            color: green;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,6 +18,9 @@
 </head>
 
 <body>
+    <h2>Click once inside the game canvas to control snake.</h2>
+    <h2 class="controls"> - use arrows keys to controll the snake</h2>
+
     <canvas data-processing-sources="Game.pde Snake.pde Food.pde"></canvas>
 
 </body>
